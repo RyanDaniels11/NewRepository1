@@ -1,0 +1,26 @@
+---
+Ryan Daniels
+title: "module 4 exercises"
+output: html_document
+date: "2023-05-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+new_function <- function(w_atts){
+  k_watts <- (w_atts * 1000)
+  return(k_watts)
+}
+new_function(5)
+```
+```{r}
+
